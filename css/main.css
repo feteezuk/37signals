@@ -598,4 +598,330 @@ div.extra {
 	font-family: Lucida Grans;
 }
 
+/*
+================
+
+MEDIA QUERIES
+
+================
+*/
+@media screen and (max-width: 920px)  {
+body{
+		width:100%;
+}
+nav {
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+nav ul {
+		display:block;
+		margin:0 auto;
+		width:95%;
+		margin:0 9%;
+}
+nav ul li {
+	
+  font-size: 12px;
+  display: inline;
+  color: #369;
+}
+header img {
+	display:block;
+	margin:0 auto;
+	width:32%;
+	padding-bottom:5%;
+}
+header {
+	  display: block;
+  height: 535px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+header h1 {
+	display: block;
+  margin: 0 auto;
+  width: 69%;
+  padding-bottom: 10%;
+    text-align: center;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 1em;
+  margin: 1% 15%;
+  letter-spacing: -2px;
+  color: #232323;
+  clear: both;
+}
+header h5 {
+  padding: 0%;
+  width: 48%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5em;
+  margin: 0 auto;
+  color: #222;
+}
+.products {
+  margin: 29% 0% 5% -14%;
+  position: relative;
+  text-align: center;
+  height: 288px;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    width: 100%;
+  height: 284px;
+  margin: 0 auto;
+  padding: 0% 0% 10% 0%;
+
+}
+.products a {
+	top:0;
+	height:76.39%;
+	width:24%;
+	float:left;
+	left:0;
+}
+
+
+.customers {
+	width:64%;
+	height:934px;
+}
+.customers img {
+	  width: 100%;
+  height: 5%;
+  padding: 10% 0%;
+  display: inline-block;
+ }
+ .manifesto {
+ 	width:80%;
+ }
+.column,
+.column-end {
+ 	margin:0 auto;
+ 	text-align:center;
+ 	width:50%;
+ }
+ section.rework {
+ 	width:75%;
+ 	height:1079px;
+ }
+.book {
+	width:100%;
+	text-align:center;
+	width:100%;
+	float:none;
+}
+h3#invest {
+	height:108px;
+	width:90%;
+}
+.quotes {
+  height: 184px;
+  padding-top: 5px;
+  font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+  text-align: center;
+  color: #222;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+.quotes p 
+.quotes h3  {
+	text-align:center;
+	padding:8% 0;
+}
+
+.arrow-right {
+  width: 69px;
+  height: 36px;
+  position: relative;
+  top: -619px;
+  left: 336px;
+}
+.crumple {
+  position: relative;
+  top: -682px;
+  left: 424px;
+  width: 143px;
+  height: 145px;
+}
+hr {
+	margin:0 auto;
+	clear:both;
+}
+section.offerings {
+	height:1300px;
+	width:78%;
+	margin:0 auto;
+}
+.offerings h2 {
+	width:100%;
+	margin:0 auto;
+	padding:3% 0;
+}
+.main-offerings {
+	margin:0 auto;
+	height:218px;
+	width:100%;
+}
+.main-offerings a {
+	width:25%;
+}
+.offerings .column,
+.offerings .column-end {
+	display:block;
+	margin:0 auto;
+	width:100%;
+	padding-top:3%;
+	height:502px;
+	float:none;
+	height:450px;
+}
+footer {
+  height: 334px;
+  margin: 6% auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+@media screen and (max-width: 650px) {
+body{
+	width:100%;
+}
+nav {
+	margin: 5% 15%;
+	width:100%;
+}
+section.products {
+	width:50%;
+}
+section.products a {
+	width:100%;
+	height:85%;
+	display:block;
+	margin:2% auto;
+
+}
+}
+@media screen and (max-width: 550px) {
+hr {
+	padding:5% 0;
+}
+.rework h2 {
+	margin: 5% 0 30% auto;
+}
+.crumple {
+  position: relative;
+  top: -743px;
+  left: 127px;
+  width: 111px;
+  height: 179px;
+ }
+.arrow-right {
+  width: 69px;
+  height: 36px;
+  position: relative;
+  top: -674px;
+  left: 58px;
+}
+section.rework {
+	height:1287px;
+}
+.manifesto h2 {
+	margin:25% auto;
+}
+.book {
+	  display: block;
+  margin: -1% 1% 1% 1%;
+  position: relative;
+  top: 3%;
+}
+.quotes p {
+  position: relative;
+  top: 13%;
+}
+}
+@media screen and (max-width:500px) {
+nav {
+	background-color:orange;
+	height:150px;
+	width:88%;
+	margin:0 auto;
+}
+nav ul {
+	width: 90%;
+	
+	margin:17% 0;
+
+}
+nav ul li {
+	
+	font-size:7px;
+	border:2px solid green;
+	margin:0 1%;
+	background-color:black;
+	border-radius:15%;
+	padding-top:7%;
+	padding-bottom:5%;
+
+}
+nav ul a{
+	margin:6% 0;
+	color:blue;
+}
+header {
+	height:670px;
+}
+section.customers {
+	height:1510px;
+}
+.customers img {
+	width:100%;
+	height:2%;
+	padding:10% 0;
+	display:inline-block;
+}
+section.rework {
+	height:1575px;
+}
+section.rework h2,
+.manifesto h2, h2 {
+	text-align:left;
+}
+section.rework p {
+	position:relative;
+	top:23%;
+	padding:10%;
+}
+.main-offerings {
+	height:600px;
+}
+.main-offerings a {
+	width:86%;
+	height:190px;
+}
+.offerings .column {
+	margin-top:15%;
+}
+footer {
+	margin-top:104%;
+}
+h3,
+#invest {
+	text-align:left;
+}
+nav ul li:last-child{
+	padding-top:5%;
+	padding-bottom:5%;
+	font-size:12px;
+	background-color:red;
+	border-radius:20%;
+}
+h3 {
+	text-align:center;
+}
+}
+
 
